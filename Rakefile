@@ -6,6 +6,10 @@ end
 
 Bundler::GemHelper.install_tasks
 
+# Host gem in Artifactory
+require "bundler/gem_tasks"
+require "ezcater_gem"
+
 # Add Rspec tasks
 require 'rspec/core/rake_task'
 

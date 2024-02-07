@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source "https://ezcater.jfrog.io/ezcater/api/gems/ezcater-gem-source"
 
 # Declare your gem's dependencies in minibars.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and

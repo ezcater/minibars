@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
   if s.respond_to?(:metadata)
-    s.metadata["allowed_push_host"] = "https://rubygems.org"
+    s.metadata["allowed_push_host"] = "https://ezcater.jfrog.io"
 
     s.metadata["homepage_uri"] = s.homepage
     s.metadata["source_code_uri"] = s.homepage
@@ -31,5 +31,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'mini_racer', '~> 0.6.4'
   s.add_dependency 'handlebars-source'
 
+  s.add_development_dependency "ezcater_gem"
   s.add_development_dependency 'rspec', '~> 3.7'
 end
